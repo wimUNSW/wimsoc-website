@@ -15,7 +15,7 @@ const Hero = () => {
         <div className='w-1/2 h-full'>
           <p className='hero-title'>other</p>
         </div>
-
+        <div>hello world!</div>
       </div>
     </section>
   )
