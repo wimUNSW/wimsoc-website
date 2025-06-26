@@ -1,13 +1,25 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import Hero from './components/Hero'
+import Home from './components/Home'
 import Navbar from './components/Navbar'
+import Sponsors from './components/Sponsors'
+import Contact from './components/Contact'
+import Events from './components/Events';
+import About from './components/About';
 
 function App() {
   return (
-    // <main className='bg-white'>
-    <main className='bg-white'>
+    <main>
+      <Router>
       <Navbar />
-      <Hero />
+        <Routes >
+          <Route path="/" element={<Home />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </main>
   )
 }
