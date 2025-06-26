@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='w-full nav-height bg-white relative px-11' >
-      <div className='h-5/6 w-full flex flex-row justify-center items-center'>
-        <div className='w-1/2 flex flex-col items-start'>
-          <p id='hero' className='hero-title text-6xl text-left'>
+    <section className='relative h-screen w-full flex items-center justify-center bg-white px-5' >
+      <div className='w-full flex flex-row justify-center items-center'>
+        <div className='w-1/2 flex-col items-start text-center'>
+          <p id='hero' className='hero-title text-7xl text-left'>
             UNSW <br />
             WOMEN IN <br />
             MANAGEMENT

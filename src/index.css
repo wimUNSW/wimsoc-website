@@ -16,7 +16,6 @@ body {
   overflow-x: hidden;
   height: 100%;
   background: #f8f7f4;
-  /* border-color: #3b3b3b; */
   user-select: none;
   padding-top: 40px;
 }
@@ -25,13 +24,6 @@ body {
 canvas {
   touch-action: none;
 }
-
-/* .screen-max-width {
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  position: relative;
-  max-width: 1120px;
-} */
 
 @theme {
   --color-white: #f8f7f4;
