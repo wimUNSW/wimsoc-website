@@ -3,10 +3,10 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      <section className='relative w-full h-full flex items-center justify-center bg-white px-5 py-25' >
+      <section className='relative w-full h-screen flex items-center justify-center bg-white px-5 py-20' >
         <div className='w-full flex flex-row justify-center items-center'>
           <div className='w-1/2 flex-col items-start text-center'>
-            <p id='home' className='home-title text-[5.6rem]/25 text-left'>
+            <p id='home' className='home-title text-8xl text-left'>
               UNSW <br />
               WOMEN IN <br />
               MANAGEMENT
