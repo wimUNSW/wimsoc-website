@@ -8,10 +8,6 @@ const NavbarComponent = () => {
     <Navbar 
       shouldHideOnScroll
       className="w-full py-5 fixed top-0 left-0 z-50 bg-black border-b"
-      classNames={{
-        base: "py-2",
-        wrapper: "max-w-7xl px-6 sm:px-8 lg:px-12",
-      }}
     >
       <NavbarBrand>
         <RouterLink to='/'>
