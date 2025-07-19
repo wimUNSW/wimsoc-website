@@ -5,9 +5,6 @@ const Home = () => {
     <>
       <section className='relative w-full h-screen flex bg-white ml-20' >
         <div className='w-full h-100vh flex flex-row'>
-      {/* <section className='relative w-full h-screen flex items-center justify-center bg-white px-5 py-12' >
-        <div className='w-full h-auto flex flex-row justify-center items-center'> */}
-          {/* <div className='w-1/2 flex-col items-start text-center'> */}
           <div className='w-3/4 h-full flex flex-col justify-center items-start'>
             <p id='home' className='home-title text-8xl text-left'>
               UNSW <br />
@@ -16,7 +13,7 @@ const Home = () => {
             </p>
             <p id='tagline' className='text-left mt-4'>Your voice, your vision, your leadership.</p>
           </div>
-          <div className='w-1/4 h-full flex flex-col justify-center items-center'>
+          <div className='w-1/4 h-full flex justify-center items-center'>
             <p className='home-title'>other</p>
           </div>
         </div>
