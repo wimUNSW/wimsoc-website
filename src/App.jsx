@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HeroUIProvider } from '@heroui/react';
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Sponsors from './components/Sponsors'
@@ -10,8 +9,6 @@ import About from './components/About';
 function App() {
   return (
     <main>
-      <HeroUIProvider>
-
       <Router>
       <Navbar />
         <Routes >
@@ -22,7 +19,6 @@ function App() {
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
       </Router>
-      </HeroUIProvider>
     </main>
   )
 }

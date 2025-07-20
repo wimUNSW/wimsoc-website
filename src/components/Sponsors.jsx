@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sponsors = () => {
   return (
-    <div>Sponsors</div>
+    <div className='bg-white h-screen'>Sponsors</div>
   )
 }
 
