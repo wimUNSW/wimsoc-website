@@ -13,8 +13,17 @@
   src: url(/public/assets/DMSerifText-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'MeieScript';
+  src: url(/public/assets/MeieScript-Regular.ttf);
+}
+
 .home-title {
   font-family: 'DMSerif', serif;
+}
+
+.tag-line {
+  font-family: 'MeieScript';
 }
 
 * {
