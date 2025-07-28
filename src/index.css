@@ -10,11 +10,20 @@
 
 @font-face {
   font-family: 'DMSerif';
-  src: url(/public/assets/DMSerifText-Regular.ttf);
+  src: url(/assets/DMSerifText-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'MeieScript';
+  src: url(/assets/MeieScript-Regular.ttf);
 }
 
 .home-title {
   font-family: 'DMSerif', serif;
+}
+
+.tag-line {
+  font-family: 'MeieScript';
 }
 
 * {
