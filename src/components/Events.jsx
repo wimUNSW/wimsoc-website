@@ -1,5 +1,4 @@
 import React from 'react'
-import { Flex, Text, Button } from "@radix-ui/themes";
 
 const Events = () => {
   return (
