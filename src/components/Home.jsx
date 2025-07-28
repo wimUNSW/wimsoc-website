@@ -1,3 +1,4 @@
+import { Button, Flex } from '@radix-ui/themes'
 import React from 'react'
 
 const Home = () => {
@@ -11,7 +12,11 @@ const Home = () => {
               WOMEN IN <br />
               MANAGEMENT
             </p>
-            <p className='text-left mt-4 text-4xl tag-line'>Your voice, your vision, your leadership.</p>
+            <p className='text-left mt-4 text-4xl tag-line mb-5'>Your voice, your vision, your leadership.</p>
+              <Flex gap='3'>
+                <Button size='4' variant='solid'>Join us!</Button>
+                <Button size='4' variant='solid'>Upcoming Events</Button>
+              </Flex>
           </div>
           <div className='w-1/4 h-full flex justify-center items-center'>
             <p className='home-title'>other</p>
