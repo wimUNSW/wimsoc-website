@@ -1,32 +1,30 @@
+import { Button, Flex } from '@radix-ui/themes'
 import React from 'react'
+import About from './About'
 
 const Home = () => {
   return (
     <>
       <section className='relative w-full h-screen bg-white flex pl-20' >
-        <div className='w-full h-100vh flex flex-row'>
-          <div className='w-3/4 h-full flex flex-col justify-center items-start'>
-            <p id='home' className='home-title text-8xl text-left'>
+        <div className='w-full flex flex-row'>
+          <div className='lg:w-4/5 md:w-3/4 h-full flex flex-col justify-center items-start'>
+            <p className='home-title lg:text-8xl md:text-7xl sm:text-xl text-left'>
               UNSW <br />
               WOMEN IN <br />
               MANAGEMENT
             </p>
-            <p id='tagline' className='text-left mt-4'>Your voice, your vision, your leadership.</p>
+            <p className='text-left mt-4 lg:text-4xl md:text-2xl tag-line mb-5'>Your voice, your vision, your leadership.</p>
+              <Flex gap='3'>
+                <Button size='4' variant='solid'>Join us!</Button>
+                <Button size='4' variant='solid'>Upcoming Events</Button>
+              </Flex>
           </div>
-          <div className='w-1/4 h-full flex justify-center items-center'>
-            <p className='home-title'>other</p>
+          <div className='lg:w-2/5 md:w-2/4 flex justify-center items-center'>
+            <img src='/assets/favicon.png' />
           </div>
         </div>
       </section>
-
-      <section className='px-5 bg-white'>
-        <div>hello world</div>
-      </section>
-      <section className='px-5 bg-white'>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum, tempore ex, amet facere repellat eaque odit officiis aliquid sapiente ut! Quo, deserunt? Aliquam magni perferendis, architecto cum similique voluptatum omnis amet maiores dolor debitis impedit rerum est? Optio quam maxime numquam officiis vero doloremque cupiditate, dolorem dolore, neque natus tempore reprehenderit a quia velit minus aliquam corrupti culpa voluptatibus earum ipsam iste impedit. Quia nostrum veritatis mollitia doloremque totam similique dolore velit itaque vel perspiciatis reprehenderit minima necessitatibus error vero molestias, ut aperiam nihil quam delectus officia fuga facere laudantium. Odit optio aliquam sequi quos doloremque laboriosam ipsam nobis!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum, tempore ex, amet facere repellat eaque odit officiis aliquid sapiente ut! Quo, deserunt? Aliquam magni perferendis, architecto cum similique voluptatum omnis amet maiores dolor debitis impedit rerum est? Optio quam maxime numquam officiis vero doloremque cupiditate, dolorem dolore, neque natus tempore reprehenderit a quia velit minus aliquam corrupti culpa voluptatibus earum ipsam iste impedit. Quia nostrum veritatis mollitia doloremque totam similique dolore velit itaque vel perspiciatis reprehenderit minima necessitatibus error vero molestias, ut aperiam nihil quam delectus officia fuga facere laudantium. Odit optio aliquam sequi quos doloremque laboriosam ipsam nobis!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum, tempore ex, amet facere repellat eaque odit officiis aliquid sapiente ut! Quo, deserunt? Aliquam magni perferendis, architecto cum similique voluptatum omnis amet maiores dolor debitis impedit rerum est? Optio quam maxime numquam officiis vero doloremque cupiditate, dolorem dolore, neque natus tempore reprehenderit a quia velit minus aliquam corrupti culpa voluptatibus earum ipsam iste impedit. Quia nostrum veritatis mollitia doloremque totam similique dolore velit itaque vel perspiciatis reprehenderit minima necessitatibus error vero molestias, ut aperiam nihil quam delectus officia fuga facere laudantium. Odit optio aliquam sequi quos doloremque laboriosam ipsam nobis!</p>
-      </section>
+      <About />
     </>
   )
 }

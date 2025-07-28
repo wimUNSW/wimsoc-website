@@ -1,17 +1,11 @@
 import React from 'react'
-import { Flex, Text, Button } from "@radix-ui/themes";
 
 const Events = () => {
-  const handleClick = () => {
-    alert('Button clicked!');
-  };
   return (
-    <>
-      <div className='p-50 bg-white h-screen' >
-        <h2>Events</h2>
-      <Button>clicke me</Button>  
-      </div>  
-    </>
+    <div className='bg-white h-screen flex flex-col items-center justify-start pt-10'>
+      <h1 className='font-[DMSerif] text-7xl mb-8'>Events</h1>
+      <h2 className='font-[DMSerif] text-6xl mb-8'>Past Events</h2>
+    </div>
   )
 }
 
