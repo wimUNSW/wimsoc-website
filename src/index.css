@@ -4,10 +4,6 @@
 
 @import "tailwindcss";
 
-#root {
-  max-width: 1280px;
-}
-
 @font-face {
   font-family: 'DMSerif';
   src: url(/assets/DMSerifText-Regular.ttf);
