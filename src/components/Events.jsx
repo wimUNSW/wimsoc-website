@@ -1,41 +1,75 @@
-import React, { useState } from "react";
+import React from "react";
 
 const upcomingEvents = [
   {
-    title: "Upcoming Event 1",
-    date: "10 July 2025",
-    description: "Join us for this amazing upcoming event!",
-    image: "/assets/eventwim.jpg"
+    title: "Stay tuned for upcoming events!",
+    date: "",
+    description: "...",
+    image: "public/assets/favicon2.png",
+    link: "https://www.facebook.com/share/14EDXLUvWEQ/?mibextid=wwXIfr"
   }
 ];
 
 const pastEvents = [
   {
-    title: "Past Event 1",
-    date: "12 Jan 2025",
-    description: "Insert stuff here",
-    image: "/assets/eventwim.jpg"
+    title: "Halloween Cruise",
+    date: "30 Decemeber 2025",
+    description: "UNSW WIM",
+    image: "/public/assets/event1.jpg",
+    link: "https://facebook.com/events/s/halloween-cruise/4135606586767549/"
   },
   {
-    title: "Past Event 2",
-    date: "20 Feb 2025",
-    description: "Insert info here",
-    image: "/assets/eventwim.jpg"
-  }
+    title: "Unmute - Own The Mic",
+    date: "24 July 2025",
+    description: "WIM x WIESOC x Toastmasters",
+    image: "/public/assets/event2.jpg",
+    link: "https://facebook.com/events/s/unmute-own-the-mic/1088587339860332/"
+  },
+  {
+    title: "Networking Night",
+    date: "18 July 2025",
+    description: "WIM x WIC",
+    image: "/public/assets/event3.jpg",
+    link: "https://facebook.com/events/s/gcg-x-ais-x-wic-x-wim-x-capita/1428097231646461/"
+  },
+  {
+    title: "Clubs Takeover",
+    date: "16 July 2025",
+    description: "UNSW WIM",
+    image: "/public/assets/event4.jpg",
+    link: "https://facebook.com/events/s/wimsoc-clubs-takeover/1286601323058648/"
+  },
+  {
+    title: "Bite For A Better Cause",
+    date: "26 June 2025",
+    description: "UNSW WIM",
+    image: "/public/assets/event5.jpg",
+    link: "https://facebook.com/events/s/wimsoc-bite-for-a-better-cause/695680129897211/"
+  },
+  {
+    title: "Linkedin Photoshoot",
+    date: "4 June 2025",
+    description: "UNSW WIM",
+    image: "/public/assets/event6.jpg",
+    link: "https://facebook.com/events/s/wim-x-fpsg-linkedin-photoshoot/1231261295178875/"
+  },
 ];
 
 const Events = () => {
-  const [selectedEvent, setSelectedEvent] = useState(null);
 
   const EventCard = ({ event }) => (
     <div
-      onClick={() => setSelectedEvent(event)}
+      onClick={() => window.open(event.link, "_blank")}
       className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300 cursor-pointer transform hover:-translate-y-2"
     >
-      <img
+     <img
         src={event.image}
         alt={event.title}
-        className="w-full h-56 object-cover"
+        className={`w-full h-56 ${
+          event.image.includes("favicon")
+            ? "object-contain bg-white p-6"
+            : "object-cover"
+        }`}
       />
 
       <div className="p-6 space-y-2">
@@ -81,46 +115,6 @@ const Events = () => {
           ))}
         </div>
       </section>
-
-      {/* Modal Popup */}
-      {selectedEvent && (
-        <div
-          className="fixed inset-0 bg-black/60 flex justify-center items-center p-6 z-50"
-          onClick={() => setSelectedEvent(null)}
-        >
-          <div
-            className="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <img
-              src={selectedEvent.image}
-              alt={selectedEvent.title}
-              className="w-full h-72 object-cover"
-            />
-
-            <div className="p-6 space-y-3">
-              <h2 className="font-[DMSerif] text-3xl">
-                {selectedEvent.title}
-              </h2>
-
-              <p className="text-gray-500">
-                {selectedEvent.date}
-              </p>
-
-              <p className="text-gray-700 leading-relaxed">
-                {selectedEvent.description}
-              </p>
-
-              <button
-                onClick={() => setSelectedEvent(null)}
-                className="mt-4 px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
