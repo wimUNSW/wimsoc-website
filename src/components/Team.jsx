@@ -41,7 +41,7 @@ const Team = () => {
 
       <div className="flex justify-center mb-12 overflow-hidden">
         <img
-          src="/src/assets/team.jpg"
+          src="/assets/team.jpg"
           alt="Team Banner"
           className="w-[80%] max-w-3xl h-[400px] object-cover rounded-lg shadow-md"
           style={{ objectPosition: "center bottom" }}
