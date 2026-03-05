@@ -4,6 +4,10 @@
 
 @import "tailwindcss";
 
+#root {
+  width: 100%;
+}
+
 @font-face {
   font-family: 'DMSerif';
   src: url(/assets/DMSerifText-Regular.ttf);
@@ -34,8 +38,15 @@ body {
   overflow-x: hidden;
   height: 100%;
   background: #f8f7f4;
-  user-select: none;
   padding-top: 73px;
+}
+
+button {
+  background-color: #C62218 !important;
+}
+
+button:hover {
+  background-color: #a81f19 !important;
 }
 
 @theme {
@@ -46,4 +57,12 @@ body {
   .nav-height {
     @apply h-[calc(100vh-72px)]
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  user-select: auto;
 }
