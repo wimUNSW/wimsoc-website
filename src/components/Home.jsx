@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           <div className="flex justify-center items-center">
             <img
-              src="/assets/favicon.png"
+              src="/assets/favicon2.png"
               className="w-[clamp(200px,28vw,400px)] h-auto"
             />
           </div>
