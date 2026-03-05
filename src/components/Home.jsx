@@ -47,7 +47,7 @@ const Home = () => {
       <section className="bg-[#f8f7f4] py-20 px-6 lg:px-20">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-        {/* Images Left */}
+        {/* Images */}
         <div className="flex flex-col gap-6 items-center relative right-6">
           <img
             src={missionImg1}
@@ -62,7 +62,7 @@ const Home = () => {
           />
         </div>
 
-        {/* Text Right */}
+        {/* Mission */}
         <div className="space-y-6 text-left text-lg text-gray-700 leading-relaxed max-w-xl lg:-ml-20">
 
           <h2 className="font-[DMSerif] text-5xl text-gray-900 mb-5">
