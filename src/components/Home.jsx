@@ -65,26 +65,26 @@ const Home = () => {
         {/* Text Right */}
         <div className="space-y-6 text-left text-lg text-gray-700 leading-relaxed max-w-xl lg:-ml-20">
 
-          <h2 className="font-[DMSerif] text-5xl text-gray-900 mb-12">
+          <h2 className="font-[DMSerif] text-5xl text-gray-900 mb-5">
             Mission
           </h2>
 
           <p>
             Empowerment lies at the heart of our mission. We are dedicated to breaking down barriers,
             challenging stereotypes, and bridging the gender gap in management and leadership.
-            Although we are a newly established organisation, our commitment to this cause remains strong.
+            While we are a recently founded organisation, our enthusiasm for this cause is unwavering. Our multifaceted approach to achieving this mission encompasses:
           </p>
             <br></br>
           <p>
             <strong>Professional Development</strong><br/>
             We aim to equip our members with skills, knowledge, and confidence needed for management careers.
-            Through workshops, seminars, and networking, we support leadership development.
+            Through workshops, seminars, and networking opportunities, we will facilitate their journey toward becoming future leaders.
           </p>
             <br></br>
           <p>
             <strong>Academic Excellence</strong><br/>
-            We encourage strong academic performance and provide learning support through study sessions
-            and management-related workshops.
+            Our goal is to ensure that our members are the best of the best.
+            We will support students in maintaining strong academic performance for their management classes through course workshops and group study sessions, thereby equipping them with the necessary skills to embark on leadership opportunities.
           </p>
 
         </div>

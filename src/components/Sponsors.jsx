@@ -2,12 +2,20 @@ import React from 'react';
 
 const sponsorsList = [
   {
+    name: "Jane Street",
+    logo: "/public/assets/JaneStreet.png",
+  },
+  {
     name: "University of New South Wales",
-    logo: "/assets/sponsor-unsw.png",
+    logo: "/public/assets/UNSW.png",
   },
   {
     name: "Arc - UNSW Student Life",
-    logo: "/assets/sponsor-arc.png",
+    logo: "/public/assets/arcclubs.png",
+  },
+  {
+    name: "UNSW Business School",
+    logo: "/public/assets/UNSW-bs.jpg",
   }
 ];
 
@@ -22,9 +30,7 @@ const Sponsors = () => {
         </h1>
 
         <p className="text-lg text-gray-700 max-w-3xl leading-relaxed">
-          WIM is currently looking for sponsors to support our mission.
-          Our sponsorship prospectus outlines partnership opportunities
-          and how organisations can work with our society.
+          We would like to thank the following sponsors for their continued support:
         </p>
       </div>
 
@@ -64,7 +70,7 @@ const Sponsors = () => {
           href="https://drive.google.com/file/d/1S1DWYkwhnrjPjjZgZRQMBPC4yFXFpbTl/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-3 bg-black text-white rounded-xl hover:bg-gray-800 transition text-lg inline-block"
+          className="px-8 py-3 bg-[#C62218] text-white rounded-xl hover:bg-[#a81f19] transition text-lg inline-block"
         >
           View Prospectus
         </a>
@@ -78,7 +84,7 @@ const Sponsors = () => {
 
         <a
           href="mailto:unsw.wim.industry@gmail.com"
-          className="px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition inline-block"
+          className="px-6 py-2 bg-[#C62218] text-white rounded-lg hover:bg-[#a81f19] transition inline-block"
         >
           unsw.wim.industry@gmail.com
         </a>
