@@ -3,19 +3,19 @@ import React from 'react';
 const sponsorsList = [
   {
     name: "Jane Street",
-    logo: "/public/assets/JaneStreet.png",
+    logo: "/assets/JaneStreet.png",
   },
   {
     name: "University of New South Wales",
-    logo: "/public/assets/UNSW.png",
+    logo: "/assets/UNSW.png",
   },
   {
     name: "Arc - UNSW Student Life",
-    logo: "/public/assets/arcclubs.png",
+    logo: "/assets/arcclubs.png",
   },
   {
     name: "UNSW Business School",
-    logo: "/public/assets/UNSW-bs.jpg",
+    logo: "/assets/UNSW-bs.jpg",
   }
 ];
 

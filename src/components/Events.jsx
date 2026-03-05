@@ -5,7 +5,7 @@ const upcomingEvents = [
     title: "Stay tuned for upcoming events!",
     date: "",
     description: "...",
-    image: "public/assets/favicon2.png",
+    image: "/assets/favicon2.png",
     link: "https://www.facebook.com/share/14EDXLUvWEQ/?mibextid=wwXIfr"
   }
 ];
@@ -15,42 +15,42 @@ const pastEvents = [
     title: "Halloween Cruise",
     date: "30 Decemeber 2025",
     description: "UNSW WIM",
-    image: "/public/assets/event1.jpg",
+    image: "/assets/event1.jpg",
     link: "https://facebook.com/events/s/halloween-cruise/4135606586767549/"
   },
   {
     title: "Unmute - Own The Mic",
     date: "24 July 2025",
     description: "WIM x WIESOC x Toastmasters",
-    image: "/public/assets/event2.jpg",
+    image: "/assets/event2.jpg",
     link: "https://facebook.com/events/s/unmute-own-the-mic/1088587339860332/"
   },
   {
     title: "Networking Night",
     date: "18 July 2025",
     description: "WIM x WIC",
-    image: "/public/assets/event3.jpg",
+    image: "/assets/event3.jpg",
     link: "https://facebook.com/events/s/gcg-x-ais-x-wic-x-wim-x-capita/1428097231646461/"
   },
   {
     title: "Clubs Takeover",
     date: "16 July 2025",
     description: "UNSW WIM",
-    image: "/public/assets/event4.jpg",
+    image: "/assets/event4.jpg",
     link: "https://facebook.com/events/s/wimsoc-clubs-takeover/1286601323058648/"
   },
   {
     title: "Bite For A Better Cause",
     date: "26 June 2025",
     description: "UNSW WIM",
-    image: "/public/assets/event5.jpg",
+    image: "/assets/event5.jpg",
     link: "https://facebook.com/events/s/wimsoc-bite-for-a-better-cause/695680129897211/"
   },
   {
     title: "Linkedin Photoshoot",
     date: "4 June 2025",
     description: "UNSW WIM",
-    image: "/public/assets/event6.jpg",
+    image: "/assets/event6.jpg",
     link: "https://facebook.com/events/s/wim-x-fpsg-linkedin-photoshoot/1231261295178875/"
   },
 ];
