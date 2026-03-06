@@ -86,7 +86,7 @@ const Events = () => {
     <div className="bg-[#f8f7f4] min-h-screen flex flex-col items-center px-6 pt-12 pb-20">
 
       {/* Title */}
-      <h1 className="font-[DMSerif] text-7xl mb-14 text-center">
+      <h1 className="font-[DMSerif] text-7xl mb-12 text-center">
         Events
       </h1>
 

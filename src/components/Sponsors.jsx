@@ -21,10 +21,10 @@ const sponsorsList = [
 
 const Sponsors = () => {
   return (
-    <div className="bg-[#f8f7f4] min-h-screen w-full flex flex-col items-center">
+    <div className="bg-[#f8f7f4] min-h-screen flex flex-col items-center px-6 pt-12 pb-20">
 
       {/* Hero */}
-      <div className="w-full flex flex-col items-center text-center px-6 pt-16 pb-14">
+      <div className="w-full flex flex-col items-center text-center px-6 pb-14">
         <h1 className="font-[DMSerif] text-7xl mb-6">
           Sponsors
         </h1>

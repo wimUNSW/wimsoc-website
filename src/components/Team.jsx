@@ -36,8 +36,10 @@ const teamData = [
 
 const Team = () => {
   return (
-    <div className="bg-white py-20 px-6 lg:px-20">
-      <h2 className="text-4xl font-[DMSerif] text-center mb-12">Meet the Team</h2>
+    <div className="bg-[#f8f7f4] min-h-screen px-6 lg:px-20 pt-14 pb-20">
+      <h1 className="text-6xl font-[DMSerif] text-center mb-12">
+        Meet the Team
+      </h1>
 
       <div className="flex justify-center mb-12 overflow-hidden">
         <img
