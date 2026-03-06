@@ -45,22 +45,22 @@ const Home = () => {
       </section>
       <About />
       <section className="bg-[#f8f7f4] py-20 px-6 lg:px-20">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
 
-    {/* Images */}
-    <div className="flex flex-col gap-6 items-center">
-      <img
-        src={missionImg1}
-        alt="Mission 1"
-        className="shadow-lg object-cover w-full max-w-md h-64"
-      />
+          {/* Images */}
+          <div className="flex flex-col gap-6 items-center">
+            <img
+              src={missionImg1}
+              alt="Mission 1"
+              className="shadow-lg object-cover w-full max-w-md h-64"
+            />
 
-      <img
-        src={missionImg2}
-        alt="Mission 2"
-        className="shadow-lg object-cover w-full max-w-md h-64"
-      />
-    </div>
+            <img
+              src={missionImg2}
+              alt="Mission 2"
+              className="shadow-lg object-cover w-full max-w-md h-64"
+            />
+          </div>
 
           {/* Text */}
           <div className="space-y-6 text-left text-lg text-gray-700 leading-relaxed lg:-ml-8">
