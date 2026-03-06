@@ -49,7 +49,7 @@ const pastEvents = [
   {
     title: "Linkedin Photoshoot",
     date: "4 June 2025",
-    description: "UNSW WIM",
+    description: "WIM x FPSG",
     image: "/assets/event6.JPG",
     link: "https://facebook.com/events/s/wim-x-fpsg-linkedin-photoshoot/1231261295178875/"
   },

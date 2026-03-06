@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* social media links- replace w/ icons */}
+        {/* Social media links- replace w/ icons */}
         <div className="space-y-3">
           <h3 className="text-lg font-semibold">Follow Us</h3>
 
@@ -50,7 +50,7 @@ const Footer = () => {
 
       </div>
 
-      {/* idk if we can have this i just thought it looked cool */}
+      {/* Idk if we can have this i just thought it looked cool */}
       <div className="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500 text-sm">
         © {new Date().getFullYear()} WIM UNSW. All rights reserved.
       </div>

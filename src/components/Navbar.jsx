@@ -31,15 +31,27 @@ const NavbarComponent = () => {
           ☰
         </button>
         <div className="hidden sm:flex gap-4">
-          {navLists.map((nav) => (
-            <RouterLink
-              key={nav.item}
-              to={nav.path}
-              className="px-5 text-md cursor-pointer hover:text-red-400 transition-all text-white"
-            >
+          {navLists.map((nav) => {
+            const isActive = location.pathname === nav.path;
+
+            return (
+              <RouterLink
+                key={nav.item}
+                to={nav.path}
+                onClick={(e) => {
+                  if (window.location.pathname === nav.path) {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }
+                }}
+                className={`px-5 text-md cursor-pointer transition-all ${
+                  isActive ? "text-red-400" : "text-white hover:text-red-400"
+                }`}
+              >
               {nav.item}
-            </RouterLink>
-          ))}
+              </RouterLink>
+            );
+          })}
         </div>
         {menuOpen && (
           <div className="sm:hidden bg-black flex flex-col items-center gap-4 py-4">

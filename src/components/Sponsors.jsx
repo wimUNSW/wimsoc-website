@@ -23,7 +23,7 @@ const Sponsors = () => {
   return (
     <div className="bg-[#f8f7f4] min-h-screen w-full flex flex-col items-center">
 
-      {/* Hero Section */}
+      {/* Hero */}
       <div className="w-full flex flex-col items-center text-center px-6 pt-16 pb-14">
         <h1 className="font-[DMSerif] text-7xl mb-6">
           Sponsors
@@ -34,7 +34,7 @@ const Sponsors = () => {
         </p>
       </div>
 
-      {/* Sponsors Grid Section */}
+      {/* Sponsors */}
       <div className="w-full max-w-5xl px-6 mb-20">
         <div className="grid sm:grid-cols-2 gap-10">
 
@@ -54,7 +54,7 @@ const Sponsors = () => {
         </div>
       </div>
 
-      {/* Prospectus Section */}
+      {/* Prospectus */}
       <div className="w-full max-w-3xl bg-white shadow-xl rounded-2xl p-12 text-center mb-16">
 
         <h2 className="font-[DMSerif] text-4xl mb-6">
@@ -76,7 +76,7 @@ const Sponsors = () => {
         </a>
       </div>
 
-      {/* Contact Section */}
+      {/* Sponsor Contact */}
       <div className="text-center pb-20 px-6">
         <p className="text-gray-700 mb-4">
           If your organisation is interested in becoming a sponsor, contact us at:

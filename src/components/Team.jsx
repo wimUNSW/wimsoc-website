@@ -1,6 +1,6 @@
 import React from "react";
 
-// All members use default name & image
+// Empty name and picture for now; TO-DO
 const teamData = [
   {
     section: "Executives",
