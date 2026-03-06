@@ -29,7 +29,9 @@ const Home = () => {
               WOMEN IN <br />
               MANAGEMENT
             </p>
-            <p className='text-left mt-4 lg:text-4xl md:text-2xl tag-line mb-5'>Your voice, your vision, your leadership.</p>
+            <p className='text-left mt-4 lg:text-4xl md:text-2xl tag-line mb-5'>
+              Your voice, your vision, your leadership.
+            </p>
               <Flex gap='3'>
                 <Button size='4' variant='solid' onClick={() => window.open("https://campus.hellorubric.com/?s=12765", "_blank")}>Join us!</Button>
                 <Button size='4' variant='solid' onClick={() => navigate("/events")}>Upcoming Events</Button>
@@ -44,11 +46,11 @@ const Home = () => {
         </div>
       </section>
       <About />
-      <section className="bg-[#f8f7f4] py-20 px-6 lg:px-20">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+      <section className="bg-[#f8f7f4] pt-0 pb-25 px-6 lg:px-20">
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-x-12 gap-y-12 items-center">
 
           {/* Images */}
-          <div className="flex flex-col gap-6 items-center">
+          <div className="flex flex-col gap-6 items-center justify-center">
             <img
               src={missionImg1}
               alt="Mission 1"
@@ -63,7 +65,7 @@ const Home = () => {
           </div>
 
           {/* Text */}
-          <div className="space-y-6 text-left text-lg text-gray-700 leading-relaxed lg:-ml-8">
+          <div className="space-y-6 text-left text-lg leading-relaxed lg:-ml-8">
 
             <h2 className="font-[DMSerif] text-6xl md:text-6xl mb-5">
               Mission

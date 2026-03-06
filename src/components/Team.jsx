@@ -1,35 +1,39 @@
 import React from "react";
 
-// Empty name and picture for now; TO-DO
+// TO-DO: Update with more profesh/updated pics;
 const teamData = [
   {
     section: "Executives",
     members: [
-      { name: "Member", role: "President", img: "/assets/team/default.png" },
-      { name: "Member", role: "Vice President", img: "/assets/team/default.png" },
-      { name: "Member", role: "Treasurer", img: "/assets/team/default.png" },
-      { name: "Member", role: "Secretary", img: "/assets/team/default.png" },
-      { name: "Member", role: "Grievance Officer", img: "/assets/team/default.png" },
+      { name: "Zainab Atif", role: "President", img: "/assets/Zainab.png" },
+      { name: "Riya Jain", role: "Vice President Externals", img: "/assets/Riya.png" },
+      { name: "Lily Smith", role: "Vice President Internals", img: "/assets/Lily.png" },
+      { name: "Safiya Safiya", role: "Treasurer", img: "/assets/Safiya.png" },
+      { name: "Tara Nandwani", role: "Secretary", img: "/assets/Headshot.jpg" },
+      { name: "Yashaswini Mallikarjunaiah", role: "Grievance Officer", img: "/assets/Yashu.png" },
     ],
   },
   {
     section: "Directors",
-    members: [
-      { name: "Member", role: "Events Director", img: "/assets/team/default.png" },
+    members: Array.from({ length: 1 }, () => ({ name: "TBA..."})),
+    members: [ 
+      { name: "TBA", img: "/assets/dot.gif"}
+      /*{ name: "Member", role: "Events Director", img: "/assets/team/default.png" },
       { name: "Member", role: "Events Director", img: "/assets/team/default.png" },
       { name: "Member", role: "HR Director", img: "/assets/team/default.png" },
       { name: "Member", role: "HR Director", img: "/assets/team/default.png" },
       { name: "Member", role: "PR/Pubs Director", img: "/assets/team/default.png" },
       { name: "Member", role: "PR/Pubs Director", img: "/assets/team/default.png" },
       { name: "Member", role: "IT Director", img: "/assets/team/default.png" },
-      { name: "Member", role: "IT Director", img: "/assets/team/default.png" },
+      { name: "Member", role: "IT Director", img: "/assets/team/default.png" },*/
     ],
   },
   {
     section: "Subcommittee Members",
     members: [
-      { name: "Member", role: "Events Subcommittee"},
-      { name: "Member", role: "Events Subcommittee"},
+      { name: "TBA", img: "/assets/dot.gif"},
+      // { name: "Member", role: "Events Subcommittee"},
+      // { name: "Member", role: "Events Subcommittee"},
     ],
   },
 ];
@@ -61,7 +65,7 @@ const Team = () => {
                 className="bg-white shadow-lg rounded-xl overflow-hidden flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300"
               >
                 {/* Image */}
-                <div className="w-full h-48 overflow-hidden">
+                <div className="w-full h-64 overflow-hidden">
                   <img
                     src={member.img}
                     alt={member.role}
